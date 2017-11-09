@@ -36,7 +36,7 @@ public class TryAgainAspect {
         Object returnValue = null;
         try {
             returnValue = joinPoint.proceed();
-            log.warning(String.format("[RestLogAspect] : %s", "focntionne"));
+            log.warning(String.format("[RestLogAspect] : %s", "fonctionne"));
         } catch (Throwable throwable) {
             log.warning(String.format("[RestLogAspect] : %s", throwable.getMessage()));
         }

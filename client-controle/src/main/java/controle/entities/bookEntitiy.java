@@ -27,6 +27,6 @@ public class bookEntitiy {
     private Boolean newest;
 
     @ManyToOne
-    private categoryEntity categoryEntity;
+    private categoryEntity category;
 
 }
