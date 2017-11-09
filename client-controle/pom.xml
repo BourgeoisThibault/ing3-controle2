@@ -46,6 +46,24 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+
+
+        <dependency>
+            <groupId>net.sf.dozer</groupId>
+            <artifactId>dozer</artifactId>
+            <version>5.5.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.jdbc.driver.version}</version>
+        </dependency>
+
         <!--
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
@@ -79,6 +97,11 @@
         <dependency>
             <groupId>controle.gokan</groupId>
             <artifactId>aspectj-aop-utils</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>controle.gokan</groupId>
+            <artifactId>annotation-utils</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

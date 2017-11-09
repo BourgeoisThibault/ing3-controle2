@@ -31,6 +31,12 @@
             <artifactId>junit</artifactId>
             <groupId>junit</groupId>
         </dependency>
+
+        <dependency>
+            <groupId>controle.gokan</groupId>
+            <artifactId>annotation-utils</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
 </project>
